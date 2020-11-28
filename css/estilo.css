@@ -1,0 +1,175 @@
+
+
+
+h1 {
+    color: dimgrey
+}
+h2 { color: dimgrey;}
+p { color: dimgrey}
+main {background-color: whitesmoke}
+header {background-color:  whitesmoke;}
+footer {background-color:  whitesmoke;}
+body {background-color: whitesmoke;}
+.titulo{
+  font-family: 'Amatic SC', cursive;
+    text-align: center;
+    text-shadow: lightcoral 15px 10px 10px;
+    font-size: 450%;
+    margin-right: 50%;
+  
+ 
+}
+.tituloEimagen{
+  border: 3px solid #868f91;
+  border-radius: 7px;
+  border-color:whitesmoke;
+    
+  
+   
+}
+.tituloImagen{
+
+    display: inline-block
+    
+
+}
+
+
+
+.bienvenida{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 200%;
+}
+.conejobienvenida{
+  text-orientation: center;
+}
+
+.logo_cruelty{
+  position: absolute;
+  left: 100px;
+  top: 150px;
+}
+
+.mision{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 240%;
+}
+.txtMision{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Parisienne', cursive;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-size: 180%;
+    color: black 5px 0.5px 0.5px;
+    text-shadow: black;
+}
+.Footer{
+    border: dotted;
+}
+.menu{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  text-shadow: lightcoral 15px 10px 10px;
+    text-align: end;
+    font-size: 190%;
+
+}
+
+.tituloEimagen{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    text-overflow: clip;
+    position: relative;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+   padding-right: 10px;
+   padding-bottom: 12px;
+   padding-left: 100px;
+
+    
+}
+
+
+
+
+  
+
+
+
+
+
+  .naturaleza_texto{
+    
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 30px;
+    font-family: Arial;
+    margin: 10px
+  }
+
+  .naturaleza_info{
+    border: 3px solid #868f91;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial;
+    margin: 10px
+  }
+  .naturaleza_img{
+   margin-right: 15px;
+  }
+
+  .jabones_menu{
+    position: relative;
+    border: 3px solid #868f91;
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial;
+    margin: 10px
+
+  }
+
+
+  .animate__animatedanimate__bounce{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation:bounce 1s infinite linear;
+    animation-duration: 2s; 
+  }
+
+  .logo_cruelty{
+    position: relative;
+    top: 7px;
+  }
+
+  .carouselExampleCaptions{
+    text-align: right;
+    position: relative;
+    
+  }
+  .carousel_primario{
+    display:flex;
+    justify-content: center;
+    
+
+    
+  }
+
+
+  
