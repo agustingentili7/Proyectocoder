@@ -1,5 +1,5 @@
 
-
+@import "_variables.scss";
 
 h1 {
     color: dimgrey
@@ -11,9 +11,9 @@ header {background-color:  whitesmoke;}
 footer {background-color:  whitesmoke;}
 body {background-color: whitesmoke;}
 .titulo{
-  font-family: 'Amatic SC', cursive;
+  font-family: $fuenteTitulos
     text-align: center;
-    text-shadow: #f08080 15px 10px 10px;
+    text-shadow: $colorPrincipal;
     font-size: 450%;
     margin-right: 50%;
   
@@ -37,7 +37,7 @@ body {background-color: whitesmoke;}
 
 
 .bienvenida{
-    font-family: 'Great Vibes', cursive;
+    font-family: $fuenteTitulos
     text-align: center;
     font-size: 200%;
 }
@@ -52,9 +52,7 @@ body {background-color: whitesmoke;}
 }
 
 .mision{
-    font-family: 'Great Vibes', cursive;
-    font-family: 'Parisienne', cursive;
-    font-family: 'Sacramento', cursive;
+    font-family: $fuenteTitulos
     text-align: center;
     font-size: 240%;
 }
@@ -73,10 +71,9 @@ body {background-color: whitesmoke;}
 .menu{
   font-family: 'Amatic SC', cursive;
   text-align: center;
-  text-shadow: lightcoral 15px 10px 10px;
+  text-shadow: $colorPrincipal
     text-align: end;
     font-size: 190%;
-
 }
 
 .tituloEimagen{
@@ -174,7 +171,7 @@ body {background-color: whitesmoke;}
     display: flex;  
     flex-direction: row; 
    justify-content: space-between;
-   border:3px solid  lightcoral
+   border:3px solid $colorPrincipal
 
 
   }
@@ -182,7 +179,7 @@ body {background-color: whitesmoke;}
   display: flex;  
     flex-direction: row; 
    justify-content: space-between;
-   border:3px solid  lightcoral
+   border:3px solid  $colorPrincipal
   
 
 } 
@@ -197,6 +194,7 @@ margin: 50px;
 }
 
 .info_txt{
+    font-family: $fuenteTextos;
   font-size: 150%;
   text-align-last: center;
   justify-content: inline
@@ -205,6 +203,6 @@ margin: 50px;
   display: flex;  
     flex-direction:center; 
    
-   border:3px solid  lightcoral
+   border:3px solid $colorPrincipal
 
 }
